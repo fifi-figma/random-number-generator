@@ -1,0 +1,12 @@
+{
+  "name": "Random Number Generator",
+  "id": "1592620739242300990",
+  "api": "1.0.0",
+  "widgetApi": "1.0.0",
+  "containsWidget": true,
+  "editorType": ["figma", "figjam"],
+  "main": "dist/code.js",
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] }
+}
+

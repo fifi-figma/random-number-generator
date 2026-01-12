@@ -1,0 +1,23 @@
+{
+  "name": "random-number-generator-widget",
+  "version": "1.0.0",
+  "description": "A Figma widget that generates random numbers between min and max values",
+  "main": "dist/code.js",
+  "scripts": {
+    "build": "esbuild widget-src/code.tsx --bundle --outfile=dist/code.js --target=es6",
+    "watch": "esbuild widget-src/code.tsx --bundle --outfile=dist/code.js --target=es6 --watch"
+  },
+  "keywords": [
+    "figma",
+    "widget",
+    "random-number"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/widget-typings": "^1.9.1",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3"
+  }
+}
+
